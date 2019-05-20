@@ -1,0 +1,179 @@
+<!Doctype html>
+ <html lang ="en">
+  
+  <head> 
+    <title> HOME </title>
+	<meta charset="utf-8">
+ 
+ <style type="text/css"> 
+body
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-top: 3em;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #004055; 
+}
+h2
+{
+  text-align: center;
+  font-variant:small-caps;
+  color: #2574a9;
+  border: 10px double #cbb677;
+  padding: 12px;
+  margin: 8px;
+}
+header
+{
+  background-color: #004055;
+  border: 10px double #cbb677;
+  padding: 12px;
+  margin: 8px;
+  color:#cbb677;
+}
+h3
+{
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 24px;
+}
+p
+{
+  font-size: 14px;
+  text-align:center;
+}
+footer
+{
+  font-size: 12px;
+  position: absolute;
+  position: bottom-right;
+  color:#004055;
+  text-align: left;
+}
+img
+{
+  padding: 8px;
+  position: relative;
+  top:8px;
+}
+.pictures
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
+dl
+{
+list-style-type: none;
+text-align:left;
+}
+#lists {
+background-color: #cce6ff;
+padding: 3px;
+</style>
+
+<script type="text/javascript">
+function less()
+{
+	var x=document.querySelectorAll("section .h2,h3, p,footer");
+	var k;
+	for(k=0; k<x.length; k++)
+		{x[k].style.fontSize ="100%";}
+}
+function more()
+{
+	var x=document.querySelectorAll("section .h2,h3, p, footer");
+	var k;
+	for(k=0; k<x.length; k++)
+		{x[k].style.fontSize ="150%";}
+}
+
+</script>
+
+ </head>
+
+<! -- Mercy Clemente 
+Shai Sundararaman-- >
+
+ <body>
+  <header>
+  <h3>
+  <a href ="A5_Home.html" style="color:#cbb677;" target="blank"> Home | </a> 
+  <a href="A5_Child1.html" style="color:#cbb677;" target="blank"> Google Talkback | </a>  
+  <a href="A5_Child2.html" style="color:#cbb677;" target = "blank"> MDN  </a>
+</h3>
+</header>
+<br/>
+  <h2> HTML Description </h2>
+  <p> 
+    Hypertext Markup Language, also known as HTML is the standard markup language used for creating web pages and applications. All web pages that are online are created using HTML code. HTML ensures that the text and elements on each webpage are correctly displayed.  Without this markup language, the browser window would not know how to display the information.  It also provides a structural outline for the page <br/>
+    <span class = "pictures">
+	<img src="Images/HTML_Example_Code.png" width="280px" height="240px"/> </span>  <br/>
+    where other style sheets will then be used to change the overall appearance of it. In order to style multiple sections you use the keyword "style" to denote what you would like to apply to it. Each markup code is called a 'tag' or an 'element' and they are always enclosed in angled brackets. With HTML there are two types of elements, there are semantic elements and structural elements. Semantic elements, give the content meaning, they describe to the browser the purpose or the intended use of the content that's on the page. Semantic elements are: headings which are referred to as h1, h2, h3, h4,h5, </br> 
+    <span class = "pictures"> <img src="Images/HTML-code-example2.png" width="280x" height="240px"> </span><br/>these numbers increase or decrease the size of the font that is between the tags. Paragraphs "p" are also used and they automatically create a line break before and after the content is written. Stand alone tags "br" create line breaks.  Some special characters that are included in the semantic elements are, <=& which is a lesser than symbol, >=& which is a greater than symbol, etc. Structural elements make the code look different, they organize it and ensures that it does not show up differently on the web page.  All structural elements are held inside the body of the page. Structural elements are: header which contains headings and logos on the page,  Nav which is a container that helps to navigate the code, sections - separate the code from other parts that will be used together and is use to define different areas of the page. Footer - contains the copyright, data, and the authors name(s). Article, figure, and figure captions are also included in this area as well. 
+  </p>
+
+  <h2> CSS Description</h2>
+  <p> Cascading Style Sheet, known as CSS is used to format the layout of Web pages. CSS is used to define the text style, size, table sizes, and other formatting styles. CSS helps developers to create one consistent look across all pages of a the web site they are creating. In CSS styles only need to be defined once, <br/>
+    <span class = "pictures"> <img src="Images/css example2.png" width ="280px" height="240px"> </span> <br/> after that initial declaration has been made it can be referenced across many pages simultaneously. Doing this also makes it easier to change styles across multiple pages at once. It also assists in formatting other aspects of the page layout.<br/>
+    <span class = "pictures"> <img src="Images/CSS-exemplo.png" width="280px" height="240px"> </span> <br/> CSS gives web developers more control over how the Web page will look, more-so than HTML, which is why CSS is used more than HTML. CSS provides a method of controlling the style of the entire HTML document.  CSS also allows for more control over typography and the page layout, it also is easier to maintain. Another advantage of using CSS is that it allows for the separation of content from the presentation layer. CSS changes the original way of the style and layout, it gives the programmer the ability to change the website;s appearance by simply editing the one style sheet.   
+  </p>
+
+  <h2> JavaScript Description </h2>
+  <p> 
+    JavaScript (JS) is a scripting language, mainly used online. Its used to enhance HTML pages and usually found embedded in HTML code. JS is an interpreted language, meaning it does not need to be compiled. JavaScript makes web pages interactive and dynamic, which makes the pages more reactive to the user's events. 
+  </p>
+  <section id=lists>
+  <ul><b> Additional Web Development Languages: </b>
+  <dl> <b>JavaScript</b>
+  <dd> Used for building web-apps</dd>
+  <dd> With HTML and CSS, it's one of the 3 core technologies for front-end development</dd>
+  </dl>
+  <dl><b> Node.js</b>
+  <dd> Used to execute JS outside of the browser, so it can be used as a server-side language</dd>
+  </dl>
+  <dl><b> jQuery</b>
+  <dd> A cross-browser, open source library of JavaScript</dd>
+  <dd> Simplifies DOM manipulation and event handling </dd>
+  </dl>
+  <dl> <b>PHP </b>
+  <dd> A server-side scripting language </dd>
+  <dd> Known for its ease-of-use and compatibility </dd>
+  </dl>
+  <dl> <b> Python </b>
+  <dd> Open-source, interpreted scripting language </dd>
+  <dd> Django framework, written in Python, works for back-end development </dd>
+  </dl>
+  </ul>
+  </section>
+
+  <img src="Images/font_size_less.png" width="50" height="50" onclick="less();"/> 
+  <img src="Images/font_size_more.png" width="50" height="50" onclick="more();"/>
+  
+<footer>
+<ul> HTML Code Images Citation:
+  <li>HTML_Example_Code.png. www.w3schools.com/html/html_editors.asp.</li>
+  <li>HTML-code-example2.png. Wikipedia, Tealover1996, 17 June 2018, 17:40 UTC, en.wikipedia.org/wiki/File:HTML_Example_Code.png.
+</li>
+</ul>
+<ul> CSS Code Image Citation:
+<li>css example2.png.agendamahala.com/introduction-to-css</li>
+<li>Sampsonievskiy, Bolshoy. CSS-exemplo.png. “HTML & CSS & JavaScript Test.” tests4geeks.Com, Bolshoy Sampsonievskiy, tests4geeks.com/html-css-javascript-online-test.</li>
+</ul>
+<br/>
+    Mercy Clemente & Shai Sundararaman &copy 
+   <script type= "text/javascript">
+   var update = new Date(document.lastModified)
+   var modMonth = update.getMonth() + 1
+   var modDate = update.getDate() 
+   var modYear = update.getFullYear()
+   document.write("<br/> Last Modified: " + modMonth + "/" + modDate + "/"+ modYear);
+</script>
+  </footer>
+ </body>
+ </html>
